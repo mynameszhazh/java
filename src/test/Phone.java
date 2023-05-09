@@ -1,11 +1,19 @@
 package src.test;
 
+import java.util.ArrayList;
+
 public class Phone {
   public String brand;
   public int price;
 
+  /**
+   * 
+   */
   public void call() {
+    ArrayList<String> arr = new ArrayList<String>();
+
     System.out.println("call me");
+
   }
 
   public Phone() {
@@ -13,7 +21,7 @@ public class Phone {
   }
 
   public Phone(int a) {
-    System.out.printf("phone init aaaaa");
+    // System.out.printf("phone init aaaaa");
   }
 
 }
