@@ -1,6 +1,8 @@
 package src.test;
 
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.concurrent.CancellationException;
 
 public class StringSorts {
   public void callSort() {
@@ -23,5 +25,19 @@ public class StringSorts {
       }
     }
     System.out.println(ret);
+  }
+
+  public void inter() {
+    Integer i = Integer.valueOf(100);
+    // System.out.println(i.hashCode());
+    // int a = 123;
+    // a += 30;
+    // i += 30;
+    System.out.println(i);
+  }
+
+  public void calendar() {
+    Calendar c = Calendar.getInstance();
+    System.out.println(c.getTime());
   }
 }
