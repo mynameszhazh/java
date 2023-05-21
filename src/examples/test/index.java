@@ -1,7 +1,6 @@
 package src.examples.test;
 
-public class index {
+class Solution {
   public static void main(String[] args) {
-
   }
 }
