@@ -1,12 +1,7 @@
 package src.collection;
 
-public class test {
-  public static void main(String[] args) {
-    Stu stu = new Stu();
-    // stu.treeSet();
-    // stu.randomSet();
+import java.io.IOException;
 
-    // stu.hashMap();
-    stu.strCompa();
-  }
+public class test {
+  public static void main(String[] args) throws IOException {}
 }

@@ -1,5 +1,7 @@
 package src.examples.test;
 
 public interface indexImp {
-  void test(String s);
+  public static void main(String[] args) {
+    Light l = Light.RED;
+  }
 }
