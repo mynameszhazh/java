@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student id="str1">
+        <name>xjh</name>
+        <age>12</age>
+    </student>
+    <student id="str2">
+        <name>xjh2</name>
+        <age>12</age>
+    </student>
+</students>
